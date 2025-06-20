@@ -1,0 +1,10 @@
+2025-06-20 10:18:06 - ERROR: Error in setup_tray (image decoding/saving): Invalid base64-encoded string: number of data characters (53) cannot be 1 more than a multiple of 4
+Traceback (most recent call last):
+  File "C:\Users\Paulomon\Documents\GitHub\LabTrackNFC\LabTrackTray\labtrack_tray.py", line 164, in setup_tray
+    decoded_image = base64.b64decode(image_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Paulomon\AppData\Local\Programs\Python\Python312\Lib\base64.py", line 88, in b64decode
+    return binascii.a2b_base64(s, strict_mode=validate)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+binascii.Error: Invalid base64-encoded string: number of data characters (53) cannot be 1 more than a multiple of 4
+
