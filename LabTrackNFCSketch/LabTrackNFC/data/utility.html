@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LabTrack Utility</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    :root {
+      --bg-dark: url("dark-bg.png");
+      --bg-light: url("light-bg.png");
+      --text-dark: #fff;
+      --text-light: #000;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: var(--bg-dark);
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: var(--text-dark);
+      transition: background-image 0.3s ease, color 0.3s ease;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 60px auto;
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 20px;
+      border-radius: 10px;
+      backdrop-filter: blur(6px);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .btn-group button {
+      flex: 1 1 48%;
+      margin-bottom: 10px;
+      background-color: #2196F3;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    .logs {
+      background-color: #222;
+      color: #0f0;
+      font-family: monospace;
+      font-size: 0.9em;
+      padding: 10px;
+      border-radius: 5px;
+      height: 200px;
+      overflow-y: auto;
+      margin-top: 15px;
+    }
+
+    .toggle-theme {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 0.9em;
+      padding: 5px 10px;
+      background-color: #444;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-theme" onclick="toggleTheme()">Toggle Theme</button>
+
+  <div class="container">
+    <h2>Utility Test Mode</h2>
+
+    <div class="btn-group">
+      <button onclick="sendCommand('/utility/read')">Read NFC</button>
+      <button onclick="sendCommand('/utility/write')">Write NFC</button>
+      <button onclick="sendCommand('/utility/wipe')">Wipe NFC</button>
+      <button onclick="sendCommand('/utility/test-led')">Test LEDs</button>
+      <button onclick="sendCommand('/utility/test-buzzer')">Test Buzzer</button>
+    </div>
+
+    <div class="logs" id="logArea">
+      [System] Utility interface ready.
+    </div>
+
+    <div class="footer">Made with 🍞 @Paulomon Edrozochu</div>
+  </div>
+
+    <script>
+    let darkMode = true;
+
+    function toggleTheme() {
+        darkMode = !darkMode;
+        updateTheme();
+    }
+
+    function updateTheme() {
+        document.body.style.backgroundImage = darkMode ? "var(--bg-dark)" : "var(--bg-light)";
+        document.body.style.color = darkMode ? "var(--text-dark)" : "var(--text-light)";
+    }
+
+    function log(message) {
+        const logArea = document.getElementById("logArea");
+        logArea.innerHTML += `<br>[${new Date().toLocaleTimeString()}] ${message}`;
+        logArea.scrollTop = logArea.scrollHeight;
+    }
+
+    async function sendCommand(action) {
+        let route = "";
+        let method = "POST";
+        let body = null;
+
+        switch (action) {
+        case "read":
+            route = "/utility/read";
+            break;
+        case "write":
+            const writeContent = prompt("Enter content to write:");
+            if (!writeContent) return log("✏️ Write cancelled.");
+            route = "/utility/write";
+            body = JSON.stringify({ content: writeContent });
+            break;
+        case "wipe":
+            route = "/utility/wipe";
+            break;
+        case "test-led":
+            route = "/utility/test-led";
+            break;
+        case "test-buzzer":
+            route = "/utility/test-buzzer";
+            break;
+        }
+
+        log(`Sending command: ${action.toUpperCase()}...`);
+        try {
+        const res = await fetch(route, {
+            method,
+            headers: { "Content-Type": "application/json" },
+            body,
+        });
+
+        const result = await res.json();
+        log(`✅ Response: ${JSON.stringify(result)}`);
+        } catch (err) {
+        log(`❌ Error: ${err.message}`);
+        }
+    }
+
+    window.onload = () => {
+        darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        updateTheme();
+    };
+    </script>
+
+</body>
+</html>

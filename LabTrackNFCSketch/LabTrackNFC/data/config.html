@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LabTrack Configuration</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    :root {
+      --bg-dark: url("dark-bg.png");
+      --bg-light: url("light-bg.png");
+      --text-dark: #fff;
+      --text-light: #fff;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: var(--bg-dark);
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: var(--text-dark);
+      transition: background-image 0.3s ease, color 0.3s ease;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 60px auto;
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 20px;
+      border-radius: 10px;
+      backdrop-filter: blur(6px);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #333;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    button {
+      background-color: #2196F3;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 1em;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .toggle-theme {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 0.9em;
+      padding: 5px 10px;
+      background-color: #444;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-theme" onclick="toggleTheme()">Toggle Theme</button>
+
+  <div class="container">
+    <h2>LabTrack System Configuration</h2>
+
+    <form id="configForm">
+      <label for="ssid">WiFi SSID</label>
+      <input type="text" name="ssid" id="ssid" placeholder="e.g. LabWiFi">
+
+      <label for="password">WiFi Password</label>
+      <input type="password" name="password" id="password" placeholder="e.g. secret123">
+
+      <label for="flask_ip">Flask Server IP (optional)</label>
+      <input type="text" name="flask_ip" id="flask_ip" placeholder="e.g. 192.168.1.88">
+
+      <button type="submit">Save Config</button>
+    </form>
+
+    <div class="footer">Made with 🍞 @Paulomon Edrozochu</div>
+  </div>
+
+  <script>
+    let darkMode = true;
+
+    function toggleTheme() {
+      darkMode = !darkMode;
+      updateTheme();
+    }
+
+    function updateTheme() {
+      document.body.style.backgroundImage = darkMode ? "var(--bg-dark)" : "var(--bg-light)";
+      document.body.style.color = darkMode ? "var(--text-dark)" : "var(--text-light)";
+    }
+
+    window.onload = () => {
+      darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      updateTheme();
+    };
+
+    document.getElementById("configForm").onsubmit = async function (e) {
+      e.preventDefault();
+
+      const data = {
+        ssid: document.getElementById("ssid").value,
+        password: document.getElementById("password").value,
+        flask_ip: document.getElementById("flask_ip").value
+      };
+
+      const res = await fetch("/save-config", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      });
+
+      const result = await res.text();
+      alert(result);
+    };
+  </script>
+</body>
+</html>

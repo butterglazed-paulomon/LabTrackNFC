@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>LabTrack System Borrower Form</title>
+  <style>
+    :root {
+      --bg-dark: url("dark-bg.png");
+      --bg-light: url("light-bg.png");
+      --text-light: #fff;
+      --text-dark: #fff;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: var(--bg-dark);
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: var(--text-dark);
+      transition: background-image 0.3s ease, color 0.3s ease;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 40px auto;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+      backdrop-filter: blur(6px);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #333;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .scrollable {
+      max-height: 200px;
+      overflow-y: auto;
+      margin-top: 10px;
+    }
+
+    button {
+      background-color: #2196F3;
+      color: white;
+      border: none;
+      padding: 6px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      font-size: 0.9em;
+    }
+
+    button:hover {
+      background-color: #1e88e5;
+    }
+
+    .flat-button {
+      display: block;
+      margin: 30px auto 0 auto;
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+
+    .toggle-theme {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 0.9em;
+      padding: 5px 10px;
+      background-color: #444;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .uid-box {
+      background: #333;
+      padding: 10px;
+      margin-top: 15px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.2em;
+      display: none;
+    }
+
+    #confirmButton {
+      display: none;
+      margin-top: 15px;
+      background-color: #4CAF50;
+    }
+
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #bbb;
+    }
+
+    .item-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+
+    .item-row input[type="number"] {
+      max-width: 80px;
+    }
+
+    .item-row button {
+      background-color: #f44336;
+      padding: 4px 8px;
+      font-size: 0.8em;
+    }
+
+    .controls {
+      text-align: right;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-theme" onclick="toggleTheme()">Toggle Theme</button>
+
+  <div class="container">
+    <h2>LabTrack System Borrower Form</h2>
+
+    <form id="borrowForm">
+      <label for="student_email">Group Leader's Email</label>
+      <input type="email" id="student_email" placeholder="studenttinapay@pnc.edu.ph" required pattern=".+@.+">
+
+      <label for="prof_email">Lab Instructor's Email</label>
+      <input type="email" id="prof_email" placeholder="pinakapogingpauloedrozo@pnc.edu.ph" required pattern=".+@.+">
+
+      <label for="group_members">Group Members</label>
+      <textarea id="group_members" rows="3" placeholder="Edrozo, Paulo M.&#10;Pogi, Paulomon Y.&#10;6packabs, Paulomon W.&#10;..." required></textarea>
+
+      <label>Items to Borrow</label>
+      <div class="scrollable" id="itemContainer"></div>
+      <div class="controls">
+        <button type="button" onclick="addRow()">Add Row</button>
+      </div>
+
+      <button type="submit" class="flat-button">Submit</button>
+    </form>
+
+    <div class="uid-box" id="uidBox">UID (note this down): <span id="uidValue"></span></div>
+    <button id="confirmButton" class="flat-button" onclick="clearForm()">Confirm & Clear</button>
+
+    <div class="footer">Made with 🍞 @Paulomon Edrozochu</div>
+  </div>
+
+  <script>
+    const container = document.getElementById("itemContainer");
+    const body = document.body;
+    let darkMode = true;
+
+    function addRow(q = "", i = "") {
+      const row = document.createElement("div");
+      row.className = "item-row";
+      row.innerHTML = `
+        <input type="number" min="1" placeholder="Qty" value="${q}">
+        <input type="text" placeholder="Item Name" value="${i}">
+        <button type="button" onclick="this.parentElement.remove()">Del</button>
+      `;
+      container.appendChild(row);
+    }
+
+    addRow();
+
+    function toggleTheme() {
+      darkMode = !darkMode;
+      updateTheme();
+    }
+
+    function updateTheme() {
+      if (darkMode) {
+        body.style.backgroundImage = "var(--bg-dark)";
+        body.style.color = "var(--text-dark)";
+      } else {
+        body.style.backgroundImage = "var(--bg-light)";
+        body.style.color = "var(--text-light)";
+      }
+    }
+
+    window.onload = () => {
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      darkMode = prefersDark;
+      updateTheme();
+    };
+
+    document.getElementById("borrowForm").addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      const items = [];
+      container.querySelectorAll(".item-row").forEach(row => {
+        const qty = row.children[0].value;
+        const item = row.children[1].value;
+        if (qty && item) items.push(`${qty}x${item}`);
+      });
+
+      const payload = {
+        type: "borrow",
+        student_email: document.getElementById("student_email").value,
+        prof_email: document.getElementById("prof_email").value,
+        group_members: document.getElementById("group_members").value,
+        items: items.join(", ")
+      };
+
+      try {
+        const res = await fetch("/generate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+
+        const result = await res.json();
+        if (result && result.uid) {
+          document.getElementById("uidValue").textContent = result.uid;
+          document.getElementById("uidBox").style.display = "block";
+          document.getElementById("confirmButton").style.display = "block";
+        } else {
+          alert("Submission failed.");
+        }
+      } catch (error) {
+        alert("Error: Unable to submit. Please try again.");
+      }
+    });
+
+    function clearForm() {
+      document.getElementById("borrowForm").reset();
+      container.innerHTML = "";
+      addRow();
+      document.getElementById("uidBox").style.display = "none";
+      document.getElementById("confirmButton").style.display = "none";
+    }
+  </script>
+</body>
+</html>

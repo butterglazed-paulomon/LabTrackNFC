@@ -3,3 +3,4 @@ requests
 win10toast
 pystray
 Pillow
+win10toast-click

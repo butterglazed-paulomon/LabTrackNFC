@@ -1,0 +1,142 @@
+[
+  {
+    "uid": "V8EHAO",
+    "type": "borrow",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:46:14.436935",
+    "returned": false
+  },
+  {
+    "uid": "Y5LVY9",
+    "type": "borrow",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:46:19.697324",
+    "returned": false
+  },
+  {
+    "uid": "WAC3OJ",
+    "type": "borrow",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:46:29.408132",
+    "returned": false
+  },
+  {
+    "uid": "HXJXPH",
+    "type": "borrow",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:46:35.748708",
+    "returned": false
+  },
+  {
+    "uid": "V8EHAO",
+    "type": "confirm_borrow",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:47:50.646760",
+    "returned": false
+  },
+  {
+    "uid": "Y5LVY9",
+    "type": "confirm_borrow",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:48:06.555579",
+    "returned": false
+  },
+  {
+    "uid": "WAC3OJ",
+    "type": "confirm_borrow",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:48:16.114278",
+    "returned": false
+  },
+  {
+    "uid": "HXJXPH",
+    "type": "confirm_borrow",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:48:27.115732",
+    "returned": false
+  },
+  {
+    "uid": "V8EHAO",
+    "type": "accept_return",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:48:34.645181",
+    "returned": true
+  },
+  {
+    "uid": "V8EHAO",
+    "type": "confirm_return",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:48:41.535191",
+    "returned": false
+  },
+  {
+    "uid": "WAC3OJ",
+    "type": "accept_return",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:48:59.496378",
+    "returned": true
+  },
+  {
+    "uid": "HXJXPH",
+    "type": "accept_return",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:49:20.599822",
+    "returned": true
+  },
+  {
+    "uid": "HXJXPH",
+    "type": "confirm_return",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:49:35.422161",
+    "returned": false
+  },
+  {
+    "uid": "Y5LVY9",
+    "type": "accept_return",
+    "student_email": "butterglazed.hk@gmail.com",
+    "prof_email": "butteeglazed.hk@gmail.com",
+    "group_members": "Udusbd",
+    "items": "65xDhdhd",
+    "timestamp": "2025-07-01T22:49:53.478522",
+    "returned": true
+  }
+]

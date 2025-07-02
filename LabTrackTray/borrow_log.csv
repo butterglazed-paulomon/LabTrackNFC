@@ -1,0 +1,15 @@
+timestamp,uid,student_email,prof_email,group_members,items,borrow_confirmed,return_confirmed,status
+2025-07-01T22:46:14.442951,V8EHAO,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,False,False,borrow
+2025-07-01T22:46:19.701346,Y5LVY9,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,False,False,borrow
+2025-07-01T22:46:29.415877,WAC3OJ,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,False,False,borrow
+2025-07-01T22:46:35.753771,HXJXPH,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,False,False,borrow
+2025-07-01T22:47:50.652785,V8EHAO,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,True,False,confirm_borrow
+2025-07-01T22:48:06.561705,Y5LVY9,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,True,False,confirm_borrow
+2025-07-01T22:48:16.121390,WAC3OJ,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,True,False,confirm_borrow
+2025-07-01T22:48:27.121753,HXJXPH,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,True,False,confirm_borrow
+2025-07-01T22:48:34.651228,V8EHAO,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,False,True,confirm_return
+2025-07-01T22:48:41.542191,V8EHAO,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,False,True,confirm_return
+2025-07-01T22:48:59.502404,WAC3OJ,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,False,True,confirm_return
+2025-07-01T22:49:20.606292,HXJXPH,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,False,True,confirm_return
+2025-07-01T22:49:35.429600,HXJXPH,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,False,True,confirm_return
+2025-07-01T22:49:53.485581,Y5LVY9,butterglazed.hk@gmail.com,butteeglazed.hk@gmail.com,Udusbd,65xDhdhd,False,True,confirm_return
