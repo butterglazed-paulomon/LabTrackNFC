@@ -9,7 +9,7 @@
       --bg-dark: url("dark-bg.png");
       --bg-light: url("light-bg.png");
       --text-dark: #fff;
-      --text-light: #000;
+      --text-light: #fff;
     }
 
     body {
@@ -94,11 +94,11 @@
     <h2>Utility Test Mode</h2>
 
     <div class="btn-group">
-      <button onclick="sendCommand('/utility/read')">Read NFC</button>
-      <button onclick="sendCommand('/utility/write')">Write NFC</button>
-      <button onclick="sendCommand('/utility/wipe')">Wipe NFC</button>
-      <button onclick="sendCommand('/utility/test-led')">Test LEDs</button>
-      <button onclick="sendCommand('/utility/test-buzzer')">Test Buzzer</button>
+      <button onclick="sendCommand('read')">Read NFC</button>
+      <button onclick="sendCommand('write')">Write NFC</button>
+      <button onclick="sendCommand('wipe')">Wipe NFC</button>
+      <button onclick="sendCommand('test-led')">Test LEDs</button>
+      <button onclick="sendCommand('test-buzzer')">Test Buzzer</button>
     </div>
 
     <div class="logs" id="logArea">
@@ -108,71 +108,76 @@
     <div class="footer">Made with 🍞 @Paulomon Edrozochu</div>
   </div>
 
-    <script>
+  <script>
     let darkMode = true;
 
     function toggleTheme() {
-        darkMode = !darkMode;
-        updateTheme();
+      darkMode = !darkMode;
+      updateTheme();
     }
 
     function updateTheme() {
-        document.body.style.backgroundImage = darkMode ? "var(--bg-dark)" : "var(--bg-light)";
-        document.body.style.color = darkMode ? "var(--text-dark)" : "var(--text-light)";
+      document.body.style.backgroundImage = darkMode ? "var(--bg-dark)" : "var(--bg-light)";
+      document.body.style.color = darkMode ? "var(--text-dark)" : "var(--text-light)";
     }
 
     function log(message) {
-        const logArea = document.getElementById("logArea");
-        logArea.innerHTML += `<br>[${new Date().toLocaleTimeString()}] ${message}`;
-        logArea.scrollTop = logArea.scrollHeight;
+      const logArea = document.getElementById("logArea");
+      logArea.innerHTML += `<br>[${new Date().toLocaleTimeString()}] ${message}`;
+      logArea.scrollTop = logArea.scrollHeight;
     }
 
     async function sendCommand(action) {
-        let route = "";
-        let method = "POST";
-        let body = null;
+      let route = "";
+      let method = "POST";
+      let body = null;
 
-        switch (action) {
+      switch (action) {
         case "read":
-            route = "/utility/read";
-            break;
+          route = "/utility/read";
+          method = "POST";
+          break;
         case "write":
-            const writeContent = prompt("Enter content to write:");
-            if (!writeContent) return log("✏️ Write cancelled.");
-            route = "/utility/write";
-            body = JSON.stringify({ content: writeContent });
-            break;
+          const writeContent = prompt("Enter content to write:");
+          if (!writeContent) return log("✏️ Write cancelled.");
+          route = "/utility/write";
+          method = "POST";
+          body = JSON.stringify({ content: writeContent });
+          break;
         case "wipe":
-            route = "/utility/wipe";
-            break;
+          route = "/utility/wipe";
+          method = "POST";
+          break;
         case "test-led":
-            route = "/utility/test-led";
-            break;
+          route = "/utility/test-led";
+          method = "POST";
+          break;
         case "test-buzzer":
-            route = "/utility/test-buzzer";
-            break;
-        }
+          route = "/utility/test-buzzer";
+          method = "POST";
+          break;
+      }
 
-        log(`Sending command: ${action.toUpperCase()}...`);
-        try {
+      log(`Sending command: ${route}...`);
+      try {
         const res = await fetch(route, {
-            method,
-            headers: { "Content-Type": "application/json" },
-            body,
+          method,
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body,
         });
-
-        const result = await res.json();
-        log(`✅ Response: ${JSON.stringify(result)}`);
-        } catch (err) {
+        const data = await res.json();
+        log(`→ ${JSON.stringify(data)}`);
+      } catch (err) {
         log(`❌ Error: ${err.message}`);
-        }
+      }
     }
 
     window.onload = () => {
-        darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        updateTheme();
+      darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      updateTheme();
     };
-    </script>
-
+  </script>
 </body>
 </html>

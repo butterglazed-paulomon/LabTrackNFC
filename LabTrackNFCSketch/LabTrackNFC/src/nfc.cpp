@@ -80,13 +80,10 @@ String readUIDFromTag() {
 }
 
 bool wipeTag() {
-    digitalWrite(RED_LED_PIN, HIGH);  // Signal busy
+    digitalWrite(RED_LED_PIN, HIGH); 
 
     bool allSuccess = true;
-
-    // Wipe blocks 4 to 63 (excluding sector trailers)
     for (uint8_t block = 4; block < 64; block++) {
-        // Skip sector trailer blocks (every 4th block, starting from 7)
         if ((block + 1) % 4 == 0) continue;
 
         if (!nfc.mifareclassic_AuthenticateBlock(currentUid, currentUidLength, block, 0, keya)) {
@@ -104,7 +101,7 @@ bool wipeTag() {
         }
     }
 
-    digitalWrite(RED_LED_PIN, LOW);  // Done erasing
+    digitalWrite(RED_LED_PIN, LOW);
 
     if (allSuccess) {
         // Blink green 3x to indicate success
@@ -239,13 +236,15 @@ void checkNFC() {
         }
         Serial.println();
         handleCardTap();
-        digitalWrite(RED_LED_PIN, HIGH);
+        digitalWrite(BLUE_LED_PIN, HIGH);
         delay(1000); 
     }
 }
 
 
 String manualReadNFC() {
+    Serial.println("[NFC] manualReadNFC() called");
+    Serial.println("Tag detected!");
     uint8_t uid[] = { 0 };
     uint8_t uidLength;
 
@@ -266,6 +265,7 @@ String manualReadNFC() {
 }
 
 bool manualWriteNFC(const String& content) {
+    Serial.println("[NFC] manualWriteNFC() called");
     uint8_t uid[] = { 0 };
     uint8_t uidLength;
 
@@ -282,15 +282,7 @@ bool manualWriteNFC(const String& content) {
 }
 
 bool manualWipeNFC() {
-    uint8_t uid[] = { 0 };
-    uint8_t uidLength;
-
-    if (!nfc.readPassiveTargetID(PN532_MIFARE_ISO14443A, uid, &uidLength)) {
-        return false;
-    }
-
-    uint8_t wipe[16];
-    memset(wipe, 0x00, 16);
-
-    return nfc.mifareclassic_WriteDataBlock(BLOCK_TO_USE, wipe);
+    Serial.println("[NFC] manualWipeNFC() called");
+    return wipeTag();
 }
+
