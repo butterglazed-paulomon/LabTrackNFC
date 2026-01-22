@@ -93,13 +93,12 @@ bool updateTransactionStatus(String uid, String newStatus, bool markReturned) {
   return true;
 }
 bool acceptReturn(const String& uid) {
-    // TODO: Search for transaction by UID and update status to "returned"
-    // Optional: erase NFC tag here if hardware logic is involved
+
     return true;
 }
 
 bool rejectReturn(const String& uid) {
-    // TODO: Update status to "rejected"
+
     return true;
 }
 

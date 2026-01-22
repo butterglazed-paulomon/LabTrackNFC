@@ -3,114 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <title>LabTrack Staff Dashboard</title>
-  <style>
-    :root {
-      --bg-dark: url("dark-bg.png");
-      --bg-light: url("light-bg.png");
-      --text-light: #fff;
-      --text-dark: #fff;
-      --table-dark: rgba(0, 0, 0, 0.6);
-      --table-light: rgba(255, 255, 255, 0.85);
-      --border-dark: #444;
-      --border-light: #aaa;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      background-image: var(--bg-dark);
-      background-size: cover;
-      margin: 0;
-      padding: 0;
-      color: var(--text-light);
-      transition: background-image 0.3s, color 0.3s;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: 40px auto;
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 20px;
-      border-radius: 10px;
-      backdrop-filter: blur(6px);
-    }
-
-    h2 {
-      text-align: center;
-      margin-bottom: 25px;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background: transparent;
-    }
-
-    th, td {
-      border: 1px solid var(--border-dark);
-      padding: 8px 12px;
-      text-align: left;
-    }
-
-    th {
-      background-color: rgba(30, 30, 30, 0.8);
-    }
-
-    td pre {
-      white-space: pre-wrap;
-      word-wrap: break-word;
-    }
-
-    button {
-      padding: 6px 10px;
-      margin: 2px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 0.9em;
-    }
-
-    .accept {
-      background-color: #4CAF50;
-      color: white;
-    }
-
-    .reject {
-      background-color: #f44336;
-      color: white;
-    }
-
-    .footer {
-      margin-top: 30px;
-      text-align: center;
-      font-size: 0.9em;
-      color: #bbb;
-    }
-
-    .toggle-theme {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      font-size: 0.9em;
-      padding: 5px 10px;
-      background-color: #444;
-      border: none;
-      color: white;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-    .grayed-out {
-      opacity: 0.5;
-    }
-
-    .highlight-box {
-      background-color: #fff7a1;
-      color: #000;
-      padding: 15px;
-      border-radius: 8px;
-      margin-top: 15px;
-    }
-  </style>
+  <link rel="stylesheet" href="/labstaff.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <button class="toggle-theme" onclick="toggleTheme()">Toggle Theme</button>
@@ -141,17 +35,25 @@
   <div class="footer">Made with 🍞 @Paulomon Edrozochu</div>
 
   <script>
+      let lastUIDDisplayed = null;
       let flaskIP = "";
       fetch('/config.json')
         .then(res => res.json())
         .then(cfg => {
           flaskIP = cfg.flask_ip;
           loadRecords(); 
-          setInterval(loadRecords, 5000);
+          setInterval(() => {
+            if (!pendingDecision && document.hidden === false) {
+              loadRecords();
+            }
+          }, 10000); // 10 seconds
         });
     const body = document.body;
     let darkMode = true;
     let pendingUID = null;
+    let pendingDecision = false;
+    let pendingTimeout = null;
+
 
     function toggleTheme() {
       darkMode = !darkMode;
@@ -165,7 +67,11 @@
     function loadRecords() {
       fetch('/config.json')
         .then(res => res.json())
-        .then(cfg => fetch(`http://${cfg.flask_ip}:8000/transactions.json`))
+        .then(cfg => {
+          console.log("Config loaded:", cfg);
+          if (!cfg.flask_ip) throw new Error("flask_ip missing from config.json");
+          return fetch(`http://${cfg.flask_ip}:8000/transactions.json`);
+        })
         .then(res => res.json())
         .then(data => {
           const tbody = document.querySelector("#recordTable tbody");
@@ -175,37 +81,43 @@
           pendingBox.innerHTML = "";
           pendingUID = null;
 
-          // 🟡 Step 1: Find all UIDs that already have a resolution
           const resolvedUIDs = new Set(
             data
               .filter(tx => ["accept_return", "reject_return"].includes(tx.type))
               .map(tx => tx.uid)
           );
 
-          // 🟡 Step 2: Filter confirm_return entries that are not resolved
           const pending = data
             .filter(tx => tx.type === "confirm_return" && !tx.returned && tx.uid)
-            .filter(tx => !resolvedUIDs.has(tx.uid)) // 🧠 NEW: skip if already accepted/rejected
+            .filter(tx => !resolvedUIDs.has(tx.uid)) 
             .filter((tx, index, self) =>
               self.findIndex(t => t.uid === tx.uid && t.returned !== true) === index
             )
             .reverse();
 
-          // 🟡 Step 3: If there are unresolved confirm_return entries, show them
           if (pending.length > 0) {
-            const tx = pending[0];
-            pendingUID = tx.uid;
-            pendingBox.innerHTML = `
-              <p><b>UID:</b> ${tx.uid}</p>
-              <p><b>Items:</b> ${tx.items}</p>
-              <p><b>Group Members:</b><br><pre>${tx.group_members}</pre></p>
-              <button class="accept" onclick="submitDecision('${tx.uid}', 'accept')">Accept</button>
-              <button class="reject" onclick="submitDecision('${tx.uid}', 'reject')">Reject</button>
-            `;
-            pendingSection.style.display = "block";
-          } else {
-            pendingSection.style.display = "none";
+          const tx = pending[0];
+
+          if (!pendingDecision) {
+            showPending(tx);
           }
+
+          else if (pendingDecision && tx.uid !== pendingUID) {
+            const confirmSwitch = confirm(`A new tag (${tx.uid}) is detected. Cancel current transaction for UID ${pendingUID}?`);
+
+            if (confirmSwitch) {
+              // Auto-reject the previous UID
+              console.warn(`⚠ Auto-rejecting ${pendingUID} to handle new tag ${tx.uid}`);
+              submitDecision(pendingUID, 'reject');
+
+              // Then display new tag
+              showPending(tx);
+            } else {
+              console.log(`Ignoring new tag ${tx.uid} while reviewing ${pendingUID}`);
+            }
+          }
+        }
+
 
           // Show last 20 transactions
           const recent = data.slice(-20).reverse();
@@ -227,40 +139,102 @@
           });
         });
     }
-      function submitDecision(uid, decision) {
-        if (!confirm(`Are you sure you want to ${decision.toUpperCase()} this return?`)) return;
+    
+    function clearPendingUI() {
+      document.getElementById("pendingBox").innerHTML = "";
+      document.getElementById("pendingSection").style.display = "none";
+      pendingUID = null;
+    }
+    function showPending(tx) {
+      const pendingSection = document.getElementById("pendingSection");
+      const pendingBox = document.getElementById("pendingBox");
 
-        const serverBase = localStorage.getItem("flask_ip") || "http://192.168.18.190:8000";
-        fetch(`${serverBase}/action/${decision}/${uid}`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({})
+      pendingDecision = true;
+      pendingUID = tx.uid;
+      lastUIDDisplayed = tx.uid;
+
+      pendingBox.innerHTML = `
+        <p><b>UID:</b> ${tx.uid}</p>
+        <p><b>Items:</b> ${tx.items}</p>
+        <p><b>Group Members:</b><br><pre>${tx.group_members}</pre></p>
+        <button class="accept" onclick="submitDecision('${tx.uid}', 'accept')">Accept</button>
+        <button class="reject" onclick="submitDecision('${tx.uid}', 'reject')">Reject</button>
+      `;
+      pendingSection.style.display = "block";
+
+      clearTimeout(pendingTimeout);
+      pendingTimeout = setTimeout(() => {
+        if (pendingDecision) {
+          console.warn(" Auto-clearing stale pending return UI after 30s.");
+          pendingBox.innerHTML = `
+            <div class="alert">
+              Timeout: Staff took no action.<br>
+              Please ask the student to <strong>re-tap</strong> their NFC tag.
+            </div>
+          `;
+          pendingSection.style.display = "block";
+          pendingUID = null;
+          pendingDecision = false;
+          lastUIDDisplayed = null;
+        }
+      }, 30000);
+    }
+
+    function submitDecision(uid, decision) {
+      if (!confirm(`Are you sure you want to ${decision.toUpperCase()} this return?`)) return;
+
+      fetch('/config.json')
+        .then(res => res.json())
+        .then(cfg => {
+          if (!cfg.flask_ip) throw new Error("flask_ip is missing in config.json");
+          const serverBase = `http://${cfg.flask_ip}:8000`;
+
+          return fetch(`${serverBase}/action/${decision}/${uid}`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({})
+          });
         })
         .then(response => {
-          if (!response.ok) throw new Error("Network response was not ok");
+          if (!response.ok) throw new Error("Flask network response was not ok");
           return response.json();
         })
         .then(data => {
           alert(`Return ${decision.toUpperCase()}ED successfully.`);
-          // Remove the pending UI immediately
           document.getElementById("pendingBox").innerHTML = "";
           document.getElementById("pendingSection").style.display = "none";
-          loadRecords();  // Refresh table to reflect changes
+          pendingUID = null;
+          pendingDecision = false;
+          loadRecords();
+
+          // Notify ESP
+          fetch(`/return/${decision}`, { method: "POST" })
+            .then(res => {
+              if (!res.ok) throw new Error("ESP rejected the decision");
+              console.log(`ESP ${decision} notified`);
+            })
+            .catch(err => {
+              console.error("Failed to notify ESP:", err);
+            });
         })
         .catch(error => {
           alert("Error submitting decision: " + error.message);
           console.error("Submit failed:", error);
         });
-      }
+    }
+
+
 
     window.onload = () => {
       const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
       darkMode = prefersDark;
       toggleTheme();
-      loadRecords();
-      setInterval(loadRecords, 5000);
+      //loadRecords();
+      setInterval(() => {
+        if (!pendingDecision && document.hidden === false) {
+          loadRecords();
+        }
+      }, 10000);
     };
   </script>
 </body>

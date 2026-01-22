@@ -10,10 +10,17 @@
 #include "nfc.h"
 #include <LittleFS.h>
 #include <queue>
+#define BLOCK_TO_USE 4 
 
 
 extern Config config;
 std::queue<String> pendingQueue;
+unsigned long lastWriteTime = 0;
+const unsigned long writeDebounceDelay = 2000; // 2 seconds
+bool hasWrittenToCurrentCard = false;
+String lastCardID = "";
+
+
 
 Adafruit_PN532 nfc(PN532_SCK, PN532_MISO, PN532_MOSI, PN532_SS);
 
@@ -55,6 +62,7 @@ bool isTagBlank() {
 }
 
 bool writeUIDToTag(const String& uid) {
+    //nfc.readPassiveTargetID(PN532_MIFARE_ISO14443A, currentUid, &currentUidLength);
     if (!authenticateBlock(BLOCK_TO_USE)) return false;
 
     uint8_t data[16] = { 0 };
@@ -62,7 +70,14 @@ bool writeUIDToTag(const String& uid) {
         data[i] = uid[i];
     }
 
-    return nfc.mifareclassic_WriteDataBlock(BLOCK_TO_USE, data);
+    //return nfc.mifareclassic_WriteDataBlock(BLOCK_TO_USE, data);
+    bool success = nfc.mifareclassic_WriteDataBlock(BLOCK_TO_USE, data);
+    if (!success) {
+        Serial.println("[ERROR] WriteDataBlock failed.");
+    } else {
+        Serial.println("[WRITE] UID written to tag successfully.");
+    }
+    return success;
 }
 
 String readUIDFromTag() {
@@ -146,6 +161,21 @@ int sendWebhook(const String& uid, const String& actionType, String& responseBod
 }
 
 void handleCardTap() {
+    String hwUID = lastCardID;
+    Serial.print("[DEBUG] Card detected. HW UID: ");
+    Serial.println(hwUID);
+    unsigned long now = millis();
+    if (hwUID == lastCardID && (now - lastWriteTime < writeDebounceDelay)) {
+        if (isTagBlank()) {
+            Serial.println("[DEBOUNCE] Ignoring duplicate card tap for blank tag.");
+            return;
+        } else {
+            Serial.println("[INFO] Tag already has UID. Proceeding with confirm return.");
+        }
+    }
+
+    lastCardID = hwUID;
+    lastWriteTime = now;
     if (isTagBlank()) {
         Serial.println("[NFC] Blank tag detected. Writing UID...");
 
@@ -156,19 +186,29 @@ void handleCardTap() {
         }
 
         String newUID = pendingQueue.front();
-        pendingQueue.pop();
-        savePendingQueue(pendingQueue);
+        //pendingQueue.pop();
+        //savePendingQueue(pendingQueue);
 
         Serial.print("[DEBUG] Writing to NFC UID: ");
         Serial.println(newUID);
+        if (!nfc.mifareclassic_IsFirstBlock(BLOCK_TO_USE)) {
+            Serial.println("[WARN] Target block may be a sector trailer. Aborting write.");
+            feedbackError();
+            return;
+        }
 
         if (writeUIDToTag(newUID)) {
+            hasWrittenToCurrentCard = true;
+            lastWriteTime = now;
             feedbackSuccess();
+            pendingQueue.pop();
+            savePendingQueue(pendingQueue);
             String response;
             sendWebhook(newUID, "confirm_borrow", response);
         } else {
             feedbackError();
         }
+        //hasWrittenToCurrentCard = false;
         return;
     }
 
@@ -230,6 +270,12 @@ void handleCardTap() {
 
 void checkNFC() {
     if (nfc.readPassiveTargetID(PN532_MIFARE_ISO14443A, currentUid, &currentUidLength)) {
+        static bool lastCardPresent = false;
+        if (lastCardPresent) {
+            hasWrittenToCurrentCard = false;
+        }
+        lastCardPresent = true;
+        digitalWrite(BLUE_LED_PIN, LOW); // Turn on blue LED to indicate card detected
         Serial.print("[DEBUG] Card detected. HW UID: ");
         for (uint8_t i = 0; i < currentUidLength; i++) {
             Serial.print(currentUid[i], HEX);
@@ -238,6 +284,7 @@ void checkNFC() {
         handleCardTap();
         digitalWrite(BLUE_LED_PIN, HIGH);
         delay(1000); 
+        lastCardPresent = false;
     }
 }
 

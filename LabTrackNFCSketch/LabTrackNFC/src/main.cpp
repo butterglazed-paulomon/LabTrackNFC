@@ -15,6 +15,10 @@
 
 Config config;
 AsyncWebServer server(80);
+String lastUID = "";
+unsigned long lastReadMillis = 0;
+const unsigned long debounceInterval = 5000; 
+String currentPendingUID = "";
 
 void startAccessPoint() {
   WiFi.mode(WIFI_AP);

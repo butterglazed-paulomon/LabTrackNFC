@@ -9,8 +9,11 @@
 #include <LittleFS.h>
 #include "nfc.h"
 #include <queue>
+#include "labstaff_css.h"
+#include "borrowform_css.h"
 
 extern Config config;
+extern String currentPendingUID;
 
 void sendBorrowWebhook(const Transaction &tx) {
     WiFiClient client;
@@ -205,4 +208,42 @@ void setupWebServer(AsyncWebServer &server, Config &config) {
         serializeJson(doc, response);
         request->send(200, "application/json", response);
     });
+
+    server.on("/return/accept", HTTP_POST, [](AsyncWebServerRequest *request) {
+    Serial.println("[WEB] Received /return/accept");
+
+    if (currentPendingUID != "") {
+        if (wipeTag()) {
+            feedbackReturnAccepted();  
+            currentPendingUID = "";
+            request->send(200, "text/plain", "ACCEPTED");
+        } else {
+            feedbackError();  // if wipe fails
+            request->send(500, "text/plain", "TAG_WIPE_FAILED");
+        }
+    } else {
+        request->send(400, "text/plain", "NO_PENDING_UID");
+    }
+});
+
+    server.on("/return/reject", HTTP_POST, [](AsyncWebServerRequest *request) {
+        Serial.println("[WEB] Received /return/reject");
+
+        if (currentPendingUID != "") {
+            feedbackError();  // 
+            currentPendingUID = "";
+            request->send(200, "text/plain", "REJECTED");
+        } else {
+            request->send(400, "text/plain", "NO_PENDING_UID");
+        }
+    });
+
+    server.on("/labstaff.css", HTTP_GET, [](AsyncWebServerRequest *request) {
+        request->send_P(200, "text/css", labstaff_css);
+    });
+
+    server.on("/borrowform.css", HTTP_GET, [](AsyncWebServerRequest *request) {
+        request->send_P(200, "text/css", borrowform_css);
+    });
+
 }

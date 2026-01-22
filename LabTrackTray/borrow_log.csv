@@ -39,3 +39,2334 @@ timestamp,uid,student_email,prof_email,group_members,items,borrow_confirmed,retu
 2025-07-02T13:56:39.583287,1B9OQE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,ghfg,3xg,False,True,confirm_return
 2025-07-02T13:56:49.738108,1B9OQE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,ghfg,3xg,False,True,confirm_return
 2025-07-02T13:57:03.266478,1B9OQE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,ghfg,3xg,False,True,confirm_return
+2025-07-12T15:47:53.435243,YPYUWY,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","2xbeaker, 5xstirrer, 1xbunsen burner",False,False,borrow
+2025-07-12T15:48:06.859213,3JHEMH,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","2xbeaker, 5xstirrer, 1xbunsen burner",False,False,borrow
+2025-07-12T15:48:49.934314,YPYUWY,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","2xbeaker, 5xstirrer, 1xbunsen burner",True,False,confirm_borrow
+2025-07-12T15:48:56.120806,YPYUWY,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","2xbeaker, 5xstirrer, 1xbunsen burner",False,True,confirm_return
+2025-07-12T15:49:12.525654,3JHEMH,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","2xbeaker, 5xstirrer, 1xbunsen burner",True,False,confirm_borrow
+2025-07-12T15:49:17.741768,3JHEMH,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","2xbeaker, 5xstirrer, 1xbunsen burner",False,True,confirm_return
+2025-07-12T15:49:25.205344,3JHEMH,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","2xbeaker, 5xstirrer, 1xbunsen burner",False,True,confirm_return
+2025-07-12T15:49:33.381038,3JHEMH,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","2xbeaker, 5xstirrer, 1xbunsen burner",False,True,confirm_return
+2025-07-12T15:49:40.586847,3JHEMH,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","2xbeaker, 5xstirrer, 1xbunsen burner",False,True,confirm_return
+2025-07-12T21:11:28.998609,ND4CFY,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,False,borrow
+2025-07-12T21:12:20.212573,ND4CFY,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",True,False,confirm_borrow
+2025-07-12T21:12:25.411120,ND4CFY,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,True,confirm_return
+2025-07-12T21:12:34.768428,ND4CFY,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,True,confirm_return
+2025-07-12T21:40:07.612142,B2M8O3,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,False,borrow
+2025-07-12T21:40:21.913598,B2M8O3,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",True,False,confirm_borrow
+2025-07-12T21:40:33.868687,B2M8O3,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,True,confirm_return
+2025-07-12T21:40:41.059365,B2M8O3,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,True,confirm_return
+2025-07-12T22:35:32.844070,Y1DZUD,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,False,borrow
+2025-07-12T22:37:10.034515,SZJR3W,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,False,borrow
+2025-07-12T22:37:21.604277,SZJR3W,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",True,False,confirm_borrow
+2025-07-12T22:37:33.821249,SZJR3W,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,True,confirm_return
+2025-07-12T22:38:59.554787,TWANO2,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,False,borrow
+2025-07-12T22:40:15.840482,3SYUX7,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,False,borrow
+2025-07-12T22:40:26.557120,3SYUX7,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",True,False,confirm_borrow
+2025-07-12T22:40:37.311841,3SYUX7,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,True,confirm_return
+2025-07-12T22:40:45.572719,3SYUX7,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,True,confirm_return
+2025-07-12T22:40:56.480456,3SYUX7,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,True,confirm_return
+2025-07-12T22:41:10.765554,3SYUX7,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.","1xasd, 213xasd, 123xasdad, 1xsda",False,True,confirm_return
+2025-07-13T00:01:40.864369,AMW8OE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,False,borrow
+2025-07-13T00:01:53.336811,AMW8OE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",True,False,confirm_borrow
+2025-07-13T00:02:09.438408,AMW8OE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:02:21.293883,AMW8OE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:02:30.710154,AMW8OE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:02:54.648800,AMW8OE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:03:01.897848,AMW8OE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:03:13.342433,AMW8OE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:05:23.475243,AMW8OE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:05:36.553198,AMW8OE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:05:43.539079,AMW8OE,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:27:27.468483,W28CT8,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,False,borrow
+2025-07-13T00:27:46.408573,W28CT8,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",True,False,confirm_borrow
+2025-07-13T00:27:52.507904,W28CT8,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:28:01.040096,W28CT8,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:28:08.112866,W28CT8,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:28:16.653685,W28CT8,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:28:24.860623,W28CT8,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:32:09.165468,W28CT8,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:32:16.391472,W28CT8,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:32:23.694721,W28CT8,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:32:30.695853,W28CT8,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T00:32:37.406901,W28CT8,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","434xasdasdasda, 2321xsdasd, 123xsda, 23xsad",False,True,confirm_return
+2025-07-13T22:26:05.404616,67HT1I,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",False,False,borrow
+2025-07-13T22:26:38.894373,67HT1I,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",True,False,confirm_borrow
+2025-07-13T22:26:45.361574,67HT1I,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",False,True,confirm_return
+2025-07-13T22:26:53.435910,67HT1I,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",False,True,confirm_return
+2025-07-13T23:06:45.588931,7WPDK2,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",False,False,borrow
+2025-07-13T23:07:32.969890,7WPDK2,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",True,False,confirm_borrow
+2025-07-13T23:07:49.367392,7WPDK2,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",False,True,confirm_return
+2025-07-13T23:07:56.662790,7WPDK2,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",False,True,confirm_return
+2025-07-13T23:08:04.393845,7WPDK2,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",False,True,confirm_return
+2025-07-13T23:08:21.364474,7WPDK2,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",False,True,confirm_return
+2025-07-13T23:09:54.726204,NGENU2,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",False,False,borrow
+2025-07-13T23:11:26.042555,NGENU2,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",True,False,confirm_borrow
+2025-07-13T23:11:41.041093,NGENU2,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",False,True,confirm_return
+2025-07-13T23:11:50.900578,NGENU2,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xasdasd, 1xsdsd",False,True,confirm_return
+2025-07-13T23:13:46.289897,81164D,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,False,borrow
+2025-07-13T23:14:14.192312,81164D,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",True,False,confirm_borrow
+2025-07-13T23:14:32.986939,81164D,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,True,confirm_return
+2025-07-13T23:14:39.570444,81164D,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,True,confirm_return
+2025-07-13T23:15:04.983614,81164D,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,True,confirm_return
+2025-07-13T23:15:12.255165,81164D,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,True,confirm_return
+2025-07-14T00:12:22.165840,KDUO9M,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,False,borrow
+2025-07-14T00:12:35.474452,KDUO9M,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",True,False,confirm_borrow
+2025-07-14T00:15:30.340781,KDUO9M,,,,,False,True,confirm_return
+2025-07-14T00:15:37.890217,KDUO9M,,,,,False,True,confirm_return
+2025-07-14T00:17:52.214986,BDVYG6,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,False,borrow
+2025-07-14T00:18:05.674596,BDVYG6,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",True,False,confirm_borrow
+2025-07-14T00:18:16.453163,BDVYG6,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,True,confirm_return
+2025-07-14T00:18:23.948221,BDVYG6,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,True,confirm_return
+2025-07-14T00:18:32.069614,BDVYG6,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,True,confirm_return
+2025-07-14T00:19:52.888291,B82GCN,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,False,borrow
+2025-07-14T00:20:15.720551,B82GCN,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",True,False,confirm_borrow
+2025-07-14T00:21:25.581398,7IDAR9,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,False,borrow
+2025-07-14T00:23:10.006230,8SD8P5,kaizen89hikari@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","2xbeaker, 3xbeaker, 1xtite, 1xtray, 200xplates",False,False,borrow
+2025-07-14T00:24:24.504352,V7FX3M,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.",1123xasdasdasd,False,False,borrow
+2025-07-14T00:26:15.378295,5NNBAG,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.",1123xasdasdasd,False,False,borrow
+2025-07-14T01:09:36.236479,HFQID9,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.",1123xasdasdasd,False,False,borrow
+2025-07-14T01:10:00.277556,HFQID9,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.",1123xasdasdasd,True,False,confirm_borrow
+2025-07-14T01:40:16.903920,SY1GY5,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.",1123xasdasdasd,False,False,borrow
+2025-07-14T01:40:54.198868,SY1GY5,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.",1123xasdasdasd,True,False,confirm_borrow
+2025-07-14T01:42:00.613189,IFVSFS,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.",1123xasdasdasd,False,False,borrow
+2025-07-14T01:42:15.028885,IFVSFS,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.",1123xasdasdasd,True,False,confirm_borrow
+2025-07-14T01:42:28.990789,IFVSFS,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.",1123xasdasdasd,False,True,confirm_return
+2025-07-14T01:42:38.773020,IFVSFS,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.",1123xasdasdasd,False,True,confirm_return
+2025-07-14T01:42:46.224800,IFVSFS,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.",1123xasdasdasd,False,True,confirm_return
+2025-07-14T01:43:11.338990,IFVSFS,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.",1123xasdasdasd,False,True,confirm_return
+2025-07-14T01:44:02.968575,HMOHW9,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf",False,False,borrow
+2025-07-14T01:44:17.760452,HMOHW9,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf",True,False,confirm_borrow
+2025-07-14T01:44:26.026036,HMOHW9,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf",False,True,confirm_return
+2025-07-14T01:44:33.072690,HMOHW9,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf",False,True,confirm_return
+2025-07-14T01:44:41.391836,HMOHW9,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf",False,True,confirm_return
+2025-07-14T01:45:56.728972,NJULBB,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf",False,False,borrow
+2025-07-14T01:46:09.954553,0SHBFP,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf, 34234x31423",False,False,borrow
+2025-07-14T01:46:27.685234,HJ3HUQ,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.a\
+wdwdw
+dawdawd
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf, 34234x31423, 23423xerwerwer",False,False,borrow
+2025-07-14T01:46:49.001690,NJULBB,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf",True,False,confirm_borrow
+2025-07-14T01:46:57.220500,0SHBFP,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf, 34234x31423",True,False,confirm_borrow
+2025-07-14T01:47:10.911503,HJ3HUQ,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.a\
+wdwdw
+dawdawd
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf, 34234x31423, 23423xerwerwer",True,False,confirm_borrow
+2025-07-14T01:47:16.198589,HJ3HUQ,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.a\
+wdwdw
+dawdawd
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf, 34234x31423, 23423xerwerwer",False,True,confirm_return
+2025-07-14T01:48:42.332157,HJ3HUQ,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.a\
+wdwdw
+dawdawd
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf, 34234x31423, 23423xerwerwer",False,True,confirm_return
+2025-07-14T01:48:49.313183,HJ3HUQ,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.a\
+wdwdw
+dawdawd
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf, 34234x31423, 23423xerwerwer",False,True,confirm_return
+2025-07-14T01:49:22.975374,0SHBFP,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf, 34234x31423",False,True,confirm_return
+2025-07-14T01:49:37.771172,0SHBFP,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf, 34234x31423",False,True,confirm_return
+2025-07-14T01:50:39.711830,NJULBB,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf",False,True,confirm_return
+2025-07-14T01:50:46.878694,NJULBB,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf",False,True,confirm_return
+2025-07-14T01:50:54.897401,NJULBB,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1123xasdasdasd, 32xfwewf",False,True,confirm_return
+2025-07-15T22:06:05.792243,JHM4FZ,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",False,False,borrow
+2025-07-15T22:06:21.140236,JHM4FZ,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",True,False,confirm_borrow
+2025-07-15T22:06:32.350499,JHM4FZ,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",False,True,confirm_return
+2025-07-15T22:06:40.335389,JHM4FZ,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",False,True,confirm_return
+2025-07-15T22:26:12.920627,0C8SXF,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",False,False,borrow
+2025-07-15T22:27:10.860172,0C8SXF,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",True,False,confirm_borrow
+2025-07-15T22:27:40.817027,0C8SXF,,,,,False,True,confirm_return
+2025-07-15T22:28:07.935911,0C8SXF,,,,,False,True,confirm_return
+2025-07-15T22:28:16.584569,0C8SXF,,,,,False,True,confirm_return
+2025-07-15T22:29:11.086564,0C8SXF,,,,,False,True,confirm_return
+2025-07-15T22:30:21.005725,0C8SXF,,,,,False,True,confirm_return
+2025-07-15T22:32:34.743149,0C8SXF,,,,,False,True,confirm_return
+2025-07-15T22:32:44.400806,0C8SXF,,,,,False,True,confirm_return
+2025-07-15T22:33:07.200770,DCP70J,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",False,False,borrow
+2025-07-15T22:33:47.709500,VQP6QP,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",False,False,borrow
+2025-07-15T22:34:13.844075,DCP70J,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",True,False,confirm_borrow
+2025-07-15T22:34:20.022870,DCP70J,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",False,True,confirm_return
+2025-07-15T22:34:31.054067,VQP6QP,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",True,False,confirm_borrow
+2025-07-15T22:34:36.133970,VQP6QP,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",False,True,confirm_return
+2025-07-15T22:34:50.738903,DCP70J,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",False,True,confirm_return
+2025-07-15T22:35:11.682485,DCP70J,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",False,True,confirm_return
+2025-07-15T22:35:34.800816,VQP6QP,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",False,True,confirm_return
+2025-07-15T22:35:41.971375,VQP6QP,butterglazed.hk@gmail.com,butterglazed.hk@gmail.com,"Dela Cruz, Juan, P.
+Santos, Maria, L.
+Reyes, Jose, C.
+Garcia, Ana, B.
+Lim, David, S.
+Tan, Michelle, A.
+Martinez, Ricardo, G.
+Gonzales, Sarah, M.
+Diaz, Kevin, T.
+Rivera, Jessica, K.
+Castro, Michael, F.
+Aquino, Sophia, R.
+Mercado, Daniel, E.
+Ramos, Andrea, J.
+Cruz, Robert, N.
+Sy, Christina, V.
+Villanueva, Paul, H.
+Soriano, Kimberly, D.
+Mendoza, Eric, W.
+Lopez, Samantha, Z.","1xbrbeaakker, 2xflaskkk, 3xnot flask",False,True,confirm_return
+2025-07-17T11:20:19.578035,JC8GA8,butterglazed.hk@gmail.com,inisip@pnc.edu.ph,"Dela Cruz, Juan
+jjdfjsd
+dfvsdfd","2xbeaker, 1xbunsen burner",False,False,borrow
+2025-07-17T11:21:26.717425,JC8GA8,butterglazed.hk@gmail.com,inisip@pnc.edu.ph,"Dela Cruz, Juan
+jjdfjsd
+dfvsdfd","2xbeaker, 1xbunsen burner",True,False,confirm_borrow
+2025-07-17T11:21:32.934365,JC8GA8,butterglazed.hk@gmail.com,inisip@pnc.edu.ph,"Dela Cruz, Juan
+jjdfjsd
+dfvsdfd","2xbeaker, 1xbunsen burner",False,True,confirm_return
+2025-07-17T11:22:24.540110,JC8GA8,butterglazed.hk@gmail.com,inisip@pnc.edu.ph,"Dela Cruz, Juan
+jjdfjsd
+dfvsdfd","2xbeaker, 1xbunsen burner",False,True,confirm_return
